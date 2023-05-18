@@ -1,0 +1,41 @@
+{
+  "name": "utexas/simplesaml-fork-installer",
+  "type": "composer-plugin",
+  "description": "Change installPath for utexas fork of simplesamlphp",
+  "keywords": [
+    "Drupal"
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "homepage": "https://drupalkit.its.utexas.edu",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Web Content Management Solutions Team, Information Technology Services, The University of Texas at Austin",
+      "email": "drupal-kit-support@utlists.utexas.edu",
+      "homepage": "https://drupalkit.its.utexas.edu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.austin.utexas.edu/eis1-wcs/pantheon_saml_integration/issues",
+    "source": "https://github.austin.utexas.edu/eis1-wcs/pantheon_saml_integration"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0 || ^2.0",
+    "composer/installers": "^1.9 || ^2.0"
+  },
+  "require-dev": {
+    "composer/composer": "^1.0 || ^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Utexas\\Composer\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Utexas\\Composer\\SamlInstallerPlugin"
+  },
+  "prefer-stable": true
+}
