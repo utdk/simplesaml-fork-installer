@@ -2,6 +2,7 @@
   "name": "utexas/simplesaml-fork-installer",
   "type": "composer-plugin",
   "description": "Change installPath for utexas fork of simplesamlphp",
+  "version": "1.0.0",
   "keywords": [
     "Drupal"
   ],
